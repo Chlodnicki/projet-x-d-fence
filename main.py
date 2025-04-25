@@ -9,7 +9,7 @@ class DefenseHandler(FileSystemEventHandler):
         self.log_event("Création", event)
 
     def on_modified(self, event):
-        self.logevent("Modification", event)
+        self.log_event("Modification", event)
 
     def on_deleted(self, event):
         self.log_event("Suppression", event)
